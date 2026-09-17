@@ -1,0 +1,23 @@
+1.
+Public IP (curl ifconfig.me): 2a02:a44b:93c2:0:6016:e9e4:dde7:286e
+Local IP: 192.168.2.5
+Default gateway: 192.168.2.254
+2.
+After turning on the VPN, the public IP address did not immediately change.
+After restarting my laptop, the public IP address changed to
+2a02:a44b:93c2:0:3926:634c:7f13:352f.
+
+After turning the VPN off again, the public IP address remained the same.
+Therefore, I cannot conclude that the change in public IP was caused by the VPN. The local IP address remained 192.168.2.5 and the default gateway remained 192.168.2.254.
+3.
+My local IP address (192.168.2.5) is private.
+My default gateway (192.168.2.254) is also private.
+4.
+The geo-location of my IP address is The Hague, South Holland, Netherlands.
+5.
+The first hub is my local KPN modem/router (192.168.2.254).
+The last hub is a Google server (172.217.171.99).
+The first hub is part of my local network, while the last hub is the destination server at Google.
+Some intermediate hubs did not respond to the traceroute request.
+6.
+The geo-location of the Google server is Lelystad, Flevoland, Netherlands.
